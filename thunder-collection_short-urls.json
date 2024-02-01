@@ -1,0 +1,64 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "short-urls",
+    "dateExported": "2024-02-01T22:55:03.459Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "ee88b6cc-0a8d-4b1f-9acb-fd8989b02761",
+            "name": "URL",
+            "containerId": "",
+            "created": "2024-02-01T21:54:56.621Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "8cf4ad85-deed-4f81-af45-cfdd4d2108a5",
+            "colId": "fb700579-fa51-41c7-940c-91a96bcebf02",
+            "containerId": "ee88b6cc-0a8d-4b1f-9acb-fd8989b02761",
+            "name": "findShortID",
+            "url": "http://localhost:5000/url",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-01T21:55:17.629Z",
+            "modified": "2024-02-01T22:48:23.785Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"url\" : \"https://github.com/RudraHingu001\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "028e06f2-02f9-4e6c-a73e-2319b548415e",
+            "colId": "fb700579-fa51-41c7-940c-91a96bcebf02",
+            "containerId": "ee88b6cc-0a8d-4b1f-9acb-fd8989b02761",
+            "name": "UrlAnalytics",
+            "url": "http://localhost:5000/url/analytics/ZKDS-Xsd",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-01T22:43:25.201Z",
+            "modified": "2024-02-01T22:48:42.148Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "40a64123-f77e-4079-a5af-2fda608e416f",
+            "colId": "fb700579-fa51-41c7-940c-91a96bcebf02",
+            "containerId": "ee88b6cc-0a8d-4b1f-9acb-fd8989b02761",
+            "name": "Redirect",
+            "url": "http://localhost:5000/ZKDS-Xsd",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-01T22:44:35.590Z",
+            "modified": "2024-02-01T22:48:47.991Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
